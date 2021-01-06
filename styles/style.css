@@ -1,0 +1,1559 @@
+html, body { height: 100% }
+
+/* background */
+
+.background {
+    
+    background-color: #696969;
+}
+
+/* logo typo */
+
+.logo-typo {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40;
+    position:absolute; 
+    top: 130px;
+    font-size-adjust: auto;
+
+}
+
+/*buttons*/
+
+.buttons {
+    
+    flex: 1 0 20px;
+    background: yellow;      
+    color: black;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: : none;
+    display: inline;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    
+    
+/*buttons list*/
+                         
+}
+.buttons li {
+                         
+    display: inline-block;
+    margin: 30px;
+    flex: initial;
+    border-style: solid;
+    border-color: black;
+    border-width:5px;
+                             
+}
+
+/*buttons for mobile display*/
+
+.buttons .mobile {
+    
+    display: none;
+}
+
+/* Top News and Most Popular headers*/
+
+.first-section
+{
+    padding: 20px;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    flex-direction: row;
+    position: relative;
+
+}
+
+/* headers division*/
+
+
+.first-section div {
+    
+    background: black;
+    display: inline;
+    width: 100px;
+    margin: auto;
+    color: white;
+    position: relative;
+    top: 20px;
+    right: 220px;
+    
+}
+
+/*news 1 box*/
+
+.news1
+{
+        
+    align-items: flex-start;
+    vertical-align: middle;
+    color: black;
+    background: black;
+    position: relative;
+    height: 40vh;
+    left: 450px;
+    width: 560px;
+    justify-content: center;
+    flex: initial;
+    margin: 100px;
+    
+    
+}
+
+/*news1 image */
+
+.imagenews1
+{
+    color: white;
+    position: absolute;
+    top:40;
+    left: 30;
+    width: 100px;
+    display: inline-block;
+}
+
+/*news 1 date*/
+
+.datenews1
+{
+    position: relative;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    bottom: -165px;
+    width: 90px;
+    left: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 11;
+}
+/*news 1 title*/
+.titlenews1
+{
+    top: -20;
+    width: 100px;
+    left: 200px;
+    position: relative;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+}
+/*news1 text*/
+.textnews1
+{
+    position: relative;
+    color: white;
+    left: 200px;
+    width: 350px;
+    bottom: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14;
+    text-align: left;
+    
+}
+/*news 2 box*/
+
+.news2
+{
+    color: black;
+    background: black;
+    position: relative;
+    height: 40vh;
+    left: 450px;
+    width: 560px;
+    flex: initial;
+    margin: 100px;
+}
+/*news 2 image*/
+.imagenews2
+{
+    color: white;
+    position: absolute;
+    top:40;
+    left: 30;
+    width: 100px;
+    display: inline-block;
+}
+/*news 2 date*/
+.datenews2
+{
+    position: relative;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    top: 165px;
+    width: 90px;
+    left: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 11;
+}
+/*news 2 title*/
+.titlenews2
+{
+    top: 0;
+    width: 120px;
+    left: 200px;
+    position: relative;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+}
+/*news2 text*/
+.textnews2
+{
+    position: relative;
+    color: white;
+    left: 200px;
+    width: 350px;
+    bottom: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14;
+    text-align: left;
+    
+}
+
+/*news3 box */
+.news3
+{
+    color: black;
+    background: black;
+    position: relative;
+    height: 40vh;
+    left: 450px;;
+    width: 560px;
+    flex: initial;
+    margin: 100px;
+}
+/*news 3 image*/
+.imagenews3
+{
+    color: white;
+    position: absolute;
+    top:40;
+    left: 30;
+    width: 100px;
+    display: inline-block;
+}
+
+/*news3 title*/
+.titlenews3
+{
+    top: 0;
+    width: 120px;
+    left: 200px;
+    position: relative;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+}
+/*news3 text*/
+.textnews3
+{
+    position: relative;
+    color: white;
+    left: 200px;
+    width: 350px;
+    bottom: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15;
+    text-align: left;
+    
+}
+
+/*news4 box*/
+.news4
+{
+    color: black;
+    background: black;
+    position: relative;
+    height: 40vh;
+    width: 560px;
+    flex: initial;
+    display: flex;
+    left: 450px;
+    margin: 100px;
+    
+    
+
+}
+
+/*news 4 image*/
+.imagenews4
+{
+    color: white;
+    position: absolute;
+    top:40;
+    left: 30;
+    width: 100px;
+    display: inline-block;
+    
+    
+}
+/*news 4 date*/
+
+.datenews4
+{
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    bottom: -125px;
+    width: 90px;
+    left: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 11;
+    display: inline-block;
+    
+}
+/*news4 title*/
+
+.titlenews4
+{
+    top: 3;
+    width: 200px;
+    left: 200px;
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    display: inline-block;
+    
+}
+
+/*news 4 text*/
+
+.textnews4
+{
+    position: absolute;
+    color: white;
+    left: 200px;
+    width: 350px;
+    bottom: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12;
+    display: inline-block;
+    text-align: left;
+    
+    
+}
+/*news 5 box*/
+
+.news5
+{
+    color: black;
+    background: black;
+    position: relative;
+    height: 40vh;
+    width: 560px;
+    flex: initial;
+    display: flex;
+    left: 450px;
+    margin: 100px;
+}
+
+/*news 5 image*/
+
+.imagenews5
+{
+    color: white;
+    position: absolute;
+    top:30;
+    left: 30;
+    width: 100px;
+    display: inline;
+}
+
+/*news 5 date*/
+
+.datenews5
+{
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    bottom: 10;
+    width: 90px;
+    left: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 11;
+}
+
+/*news 5 title*/
+
+.titlenews5
+{
+    top: 10;
+    width: 215px;
+    left: 200px;
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+}
+
+/*newst 5 text*/
+
+.textnews5
+{
+    position: absolute;
+    color: white;
+    left: 200px;
+    width: 350px;
+    bottom: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14;
+    text-align: left;
+    
+}
+
+/*news 6 box*/
+.news6
+{
+    color: black;
+    background: black;
+    position: relative;
+    height: 40vh;
+    width: 560px;
+    left: 450px;
+    flex: initial;
+    display: flex;
+    margin: 100px;
+    
+}
+/*newst 6 image*/
+
+.imagenews6
+{
+    color: white;
+    position: absolute;
+    top:30;
+    width: 100px;
+    display: inline;
+    left: 30;
+}
+
+/*newst 6 date*/
+
+.datenews6
+{
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    bottom: 10px;
+    width: 90px;
+    left: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 11;
+}
+
+/*newst 6 title*/
+.titlenews6
+{
+    top: 0;
+    width: 355px;
+    left: 200px;
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+}
+
+/*news 6 text*/
+.textnews6
+{
+    position: absolute;
+    color: white;
+    left: 200px;
+    width: 350px;
+    bottom: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14;
+    text-align: left;
+    
+}
+
+/*copyright*/
+
+.copyright 
+{
+
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    text-align: end
+    bottom:0;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+/*space for the box in between the header and the footer where contents of the articles are placed*/
+
+.article-container 
+
+{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    
+    
+    
+/*actual box where the three articles are placed*/
+}
+
+.article-box 
+
+{
+    width: 450px;
+    margin: 10px;
+    border: 2px solid #dfdfdf;
+    background-color: black;
+    position: relative;
+    top: 50;
+    
+    
+}
+/*article 1 */
+
+.article-1
+
+{
+    position: relative;
+    
+    min-height: 600
+}
+
+/*article 1 image*/
+
+.imagearticles1 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:50;
+    width: 100px;
+    display: inline;
+    left: 35;
+    
+}
+
+/*article1 title*/
+
+.titlearticles1 
+
+{
+    
+    top: 0;
+    width: 300px;
+    left: 0px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    text-align: center;
+    
+}
+
+/*article 1 text*/
+
+.textarticles1 
+
+{
+    
+    
+    top: 200;
+    width: 250px;
+    left: 35px;
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+/*article 2 */
+
+.article-2 
+
+{
+    
+    min-height: 600
+}
+
+/*article 2 image*/
+.imagearticles2 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:50;
+    width: 100px;
+    display: inline;
+    left: 35;
+    
+}
+
+/*article 2 title*/
+
+.titlearticles2 
+
+{
+    
+    top: 0;
+    width: 300px;
+    left: 0px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    text-align: center;
+    
+}
+
+/*article 2 text*/
+
+.textarticles2 
+
+{
+    
+    
+    top: 200;
+    width: 250px;
+    left: 35px;
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+/*article 3*/
+
+.article-3 
+
+{
+    
+    min-height: 600
+}
+
+/*article 3 image*/
+
+.imagearticles3 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:50;
+    width: 100px;
+    display: inline;
+    left: 35;
+    
+}
+
+/*article 3 title*/
+
+.titlearticles3
+{
+    
+    top: 0;
+    width: 300px;
+    left: 0px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    text-align: center;
+    
+}
+
+/*article 3 text*/
+
+.textarticles3 
+
+{
+    
+    
+    top: 200;
+    width: 250px;
+    left: 35px;
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+/*space for the box in between the header and the footer where contents of the computer builds  are placed*/
+
+.builds-container 
+
+{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    
+    
+    
+    
+}
+
+/*actual box where the 6 builds are placed*/
+
+.builds-box 
+
+{
+    width: 450px;
+    margin: 10px;
+    border: 2px solid #dfdfdf;
+    background-color: black;
+    position: relative;
+    top: 50;
+    
+    
+}
+
+/*build 1 */
+
+.builds-1
+
+{
+    position: relative;
+    
+    min-height: 350;
+}
+
+/*build 1 image */
+
+.imagebuilds1 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+/*build 1 text */
+
+
+
+.textbuilds1 
+
+{
+    
+    
+    top: 150px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+/*build 2 */
+
+.builds-2 
+
+{
+    
+    min-height: 350;
+}
+
+/*build 2 image */
+
+.imagebuilds2 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+
+
+.textbuilds2 
+
+/*build 2 text */
+
+{
+    
+    
+    top: 150px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+/*build 3 */
+
+.builds-3 
+
+{
+    
+    min-height: 350;
+}
+
+/*build 3 image */
+
+.imagebuilds3 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+/*build 3 text */
+
+
+.textbuilds3 
+
+
+
+{
+    
+    
+    top: 150px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+
+/*build 4 */
+
+
+.builds-4
+
+{
+    
+    min-height: 350;
+}
+
+/*build 4 image */
+
+.imagebuilds4 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+/*build 4 text */
+
+
+
+.textbuilds4 
+
+{
+    
+    
+    top: 150px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+
+/*build 5 */
+
+
+.builds-5
+
+{
+    
+    min-height: 350;
+}
+
+/*build 5 image */
+
+.imagebuilds5 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+
+/*build 5 text */
+
+
+.textbuilds5 
+
+{
+    
+    
+    top: 150px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+/*build 6 */
+
+.builds-6
+
+{
+    
+    min-height: 350;
+}
+
+/*build 6 image */
+
+.imagebuilds6 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+/*build 6 text */
+
+
+.textbuilds6 
+
+{
+    
+    
+    top: 120px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12.5;
+    
+}
+
+/*space for the box in between the header and the footer where contents of the about us page  are placed*/
+
+.aboutus-container 
+
+{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    
+    
+    
+    
+}
+
+/*actual box where the about us information is placed*/
+
+.aboutus-box 
+
+{
+    width: 450px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    top: 50;
+    
+    
+}
+
+/* Contact Us information */
+
+.aboutus-1
+
+{
+    position: relative;
+    
+    min-height: 600
+}
+
+/*About Us 1 title*/
+
+
+.titleaboutus1 
+
+{
+    
+    top: 0;
+    width: 300px;
+    left: 0px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50;
+    text-align: center;
+    color: black;
+    
+    
+}
+
+/*About Us 1 text*/
+
+.textaboutus1 
+
+{
+    
+    
+    top: 230;
+    width: 250px;
+    left: 0;
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 26;
+    color: black;
+    
+}
+
+/*About Us information*/
+
+.aboutus-2 
+
+{
+    
+    min-height: 600
+}
+
+/*About Us 2 title*/
+
+.titleaboutus2 
+
+{
+    
+    top: 50;
+    width: 300px;
+    left: 0px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40;
+    text-align: center;
+    color: black;
+    
+}
+
+/*About Us 2 text*/
+
+.textaboutus2 
+
+{
+    
+    
+    top: 100;
+    width: 250px;
+    left: 20;
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15;
+    text-align: center;
+    color: black;
+    
+}
+
+/*Follow Us social media links*/
+
+.aboutus-3 
+
+{
+    
+    min-height: 600
+}
+
+
+
+/*About Us 3 title*/
+
+.titleaboutus3
+{
+    
+    top:300px;
+    width: 300px;
+    left: 0px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40;
+    text-align: center;
+    color: black;
+    
+}
+
+    
+}
+
+/*social media icons*/
+
+.socialicons {
+	width: 20px;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	left: 90px;
+    top: 200px
+    
+}
+
+/*space for the box in between the header and the footer where contents of the reviews page  are placed*/
+
+.reviews-container 
+
+{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    
+    
+    
+    
+}
+
+/*actual box where the about us information is placed*/
+
+.reviews-box 
+
+{
+    width: 450px;
+    margin: 10px;
+    border: 2px solid #dfdfdf;
+    background-color: black;
+    position: relative;
+    top: 50;
+    
+    
+}
+
+/*reviews 1*/
+
+.reviews-1
+
+{
+    position: relative;
+    
+    min-height: 350;
+}
+
+/*reviews 1 image */
+
+.imagereviews1 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+/*reviews 1 text */
+
+.textreviews1 
+
+{
+    
+    
+    top: 130px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+/*reviews 2*/
+
+
+.reviews-2 
+
+{
+    
+    min-height: 350;
+}
+
+/*reviews 2 image */
+
+.imagereviews2 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+ /*reviews 2 text */
+
+
+
+.textreviews2 
+
+{
+    
+    
+    top: 150px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+/*reviews 3*/
+
+.reviews-3 
+
+{
+    
+    min-height: 350;
+}
+
+/*reviews 3 image*/
+
+.imagereviews3 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+/*reviews 3 text */
+
+
+.textreviews3 
+
+{
+    
+    
+    top: 150px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+/*reviews 4*/
+
+.reviews-4
+
+{
+    
+    min-height: 350;
+}
+
+/*reviews 4 image */
+
+
+.imagereviews4 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+
+/*reviews 4 text*/
+
+
+
+.textreviews4 
+
+{
+    
+    
+    top: 150px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+/*reviews 5*/
+
+.reviews-5
+
+{
+    
+    min-height: 350;
+}
+
+/*reviews 5 image*/ 
+
+.imagereviews5 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+/*reviews 5 text*/
+
+
+
+.textreviews5 
+
+{
+    
+    
+    top: 150px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13;
+    
+}
+
+/*reviews 6*/
+
+.reviews-6
+
+{
+    
+    min-height: 350;
+}
+
+/*reviews 6 image*/
+
+.imagereviews6 
+
+{
+    
+    color: white;
+    position: absolute;
+    top:0;
+    width: 100px;
+    display: inline;
+    left: 25;
+    
+}
+
+/*reviews 6 text*/
+
+
+.textreviews6 
+
+{
+    
+    
+    top: 150px;
+    width: 250px;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12.5;
+    
+}
+
+/* report page*/
+
+.report 
+
+{
+    color: white;
+    position: relative;
+    top: 40px;
+    font-size: 20;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+/*paragraph explaining the DOCTYPE html error*/
+
+.error 
+{
+    color: white;
+    position: relative;
+    top: 0;
+    font-size: 20;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+/* Responsive rules */
+
+@media screen and (max-width: 720px) 
+{
+    
+    .buttons .mobile {
+        
+        display: inline-block;
+    }
+    
+    .buttons .desktop {
+        
+        display: none;
+    }
+    
+    header 
+    {
+        
+        height: 1100px;
+    }
+
+    .news4 {
+        
+        display: block;
+        
+        
+    }
+    
+    .news5 {
+        
+        display: block;
+        
+        
+    }
+    
+    .news6 {
+        
+        display: block;
+    
+    }
+    
+}
+
